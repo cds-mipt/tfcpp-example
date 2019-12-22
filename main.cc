@@ -77,7 +77,7 @@ void print_vector(std::vector<float> &x)
 
 int main()
 {
-	std::vector<std::string> image_names = {"green.jpg", "red.jpg", "yellow.jpg"};
+	std::vector<std::string> image_names = {"black.jpg", "red.jpg", "yellow.jpg", "green.jpg"};
 
 	tensorflow::Session* session;
 	init(session);
